@@ -1,0 +1,119 @@
+* {
+    font-family: Viga;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color:rgb(212, 211, 211);
+}
+
+header {
+    display: inline;
+}
+
+.logo {
+    display: flex;
+    height: 100%;    
+}
+
+nav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    min-height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-item.active,
+.nav-item:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.konten{
+    display:inline-block;
+    padding: 15px;
+}
+
+.konten h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.konten h3 {
+    padding : 10px;
+    background-color: white;
+}
+
+.konten ul {
+    display:inline-block;
+    padding : 10px;
+    text-align: justify;
+    background-color: white;
+}
+
+.konten ul li {
+    padding-top: 10px;
+}
+
+.konten_video {
+    padding: 15px;
+    text-align: center;
+}
+
+.konten_video h2 {
+    padding-bottom: 15px;
+}
+
+.konten_video video {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .social-icons li.title {
+      display: block;
+      margin-right: 0;
+      font-weight: 600;
+    }
+  }
